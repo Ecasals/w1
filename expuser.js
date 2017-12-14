@@ -60,9 +60,9 @@ document.getElementById("b2").onclick = function () {
         document.getElementById("b3").style.background = "#b2ceed";
         document.getElementById("b4").style.background = "#b2ceed";
         document.getElementById("b5").style.background = "#b2ceed";
-        document.getElementById("b3").style.boxShadow = "0 0 0 0px rgba(110, 162, 221, 0.7)";
-        document.getElementById("b4").style.boxShadow = "0 0 0 0px rgba(110, 162, 221, 0.7)";
-        document.getElementById("b5").style.boxShadow = "0 0 0 0px rgba(110, 162, 221, 0.7)";
+        document.getElementById("b4").className = "b4_up";
+        document.getElementById("b3").className = "b3_up";
+        document.getElementById("b5").className = "b5_up";
     }
 };
 
@@ -80,9 +80,9 @@ document.getElementById("b3").onclick = function () {
         document.getElementById("b2").style.background = "#b2ceed";
         document.getElementById("b4").style.background = "#b2ceed";
         document.getElementById("b5").style.background = "#b2ceed";
-        document.getElementById("b2").style.boxShadow = "0 0 0 0px rgba(110, 162, 221, 0.7)";
-        document.getElementById("b4").style.boxShadow = "0 0 0 0px rgba(110, 162, 221, 0.7)";
-        document.getElementById("b5").style.boxShadow = "0 0 0 0px rgba(110, 162, 221, 0.7)";
+        document.getElementById("b2").className = "b2_up";
+        document.getElementById("b4").className = "b4_up";
+        document.getElementById("b5").className = "b5_up";
     }
 };
 
@@ -98,9 +98,9 @@ document.getElementById("b4").onclick = function () {
         document.getElementById("b3").style.background = "#b2ceed";
         document.getElementById("b2").style.background = "#b2ceed";
         document.getElementById("b5").style.background = "#b2ceed";
-        document.getElementById("b3").style.boxShadow = "0 0 0 0px rgba(110, 162, 221, 0.7)";
-        document.getElementById("b2").style.boxShadow = "0 0 0 0px rgba(110, 162, 221, 0.7)";
-        document.getElementById("b5").style.boxShadow = "0 0 0 0px rgba(110, 162, 221, 0.7)";
+        document.getElementById("b2").className = "b2_up";
+        document.getElementById("b3").className = "b3_up";
+        document.getElementById("b5").className = "b5_up";
     }
 };
 
@@ -116,8 +116,8 @@ document.getElementById("b5").onclick = function () {
         document.getElementById("b3").style.background = "#b2ceed";
         document.getElementById("b4").style.background = "#b2ceed";
         document.getElementById("b2").style.background = "#b2ceed";
-        document.getElementById("b3").style.boxShadow = "0 0 0 0px rgba(110, 162, 221, 0.7)";
-        document.getElementById("b4").style.boxShadow = "0 0 0 0px rgba(110, 162, 221, 0.7)";
-        document.getElementById("b2").style.boxShadow = "0 0 0 0px rgba(110, 162, 221, 0.7)";
+        document.getElementById("b2").className = "b2_up";
+        document.getElementById("b3").className = "b3_up";
+        document.getElementById("b4").className = "b4_up";
     }
 };
